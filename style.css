@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font_1 ;
+    src: url(./fonts/LaoUIb_0.ttf);
+}
+
+h1,h2,h3,h4,a{
+    font-family: font_1;
+    text-decoration: none;
+}
+body{
+    background-color: #edf;
+}
+
+#header__navigations {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8%;
+    align-items: center;
+}
+
+#header__navigations .header-pipe, .header-logo{
+    color: blue;
+}
+
+#header__navigations ul{
+    list-style: none;
+}
+
+#header__navigations li{
+    display: inline-block;
+    padding: 0 15px;
+}
+#header__navigations a{
+    color: #111;
+    font-weight: 550;
+}
+
+#header__navigations .active{
+    color: blue;
+}
+
+#header__navigations .btns{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.btns .login {
+    color: blue !important;
+}
+#header__navigations .btns button{
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+main{
+    width: 80%;
+    padding: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+main h1{
+    line-height: 60px;
+    font-size: 2.2em;
+}
+main h1 span{
+    color: blue;
+}
+main p{
+    width: 55%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.main-btn{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.main-btn .sign-up{
+  border: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.main-btn .learn-more{
+  border: none;
+  color: blue;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+/* <!-- PART 2 --> */
+
+.one-stop-four-possibilities{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeeeae;
+    padding: 80px 10%;
+    margin: 0 0 100px 0;
+
+}
+
+.one-stop{
+    flex-basis: 30%;
+}
+.one-stop-num-data{
+    flex-basis: 60%;
+}
+
+.one-stop h1{
+    font-size: 2.3em;
+}
+.one-stop h1 span{
+    color: blue;
+}
+
+.one-stop-num-data .inner-num-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.one-stop-four-possibilities .inner-num-data h2{
+    font-size: 2em;
+}
+.one-stop-four-possibilities .inner-num-data p{
+    font-size: 1.2em;
+}
+
+/* <!-- PART 2B --> */
+
+.why-scissors{
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-choose-scisssors{
+    flex-basis: 30%;
+}
+.U_C_Q_D{
+    flex-basis: 60%;
+}
+
+.why-choose-scisssors h1{
+    font-size: 2.3em;
+    padding: 0 0 20px 0;
+}
+
+.why-choose-scisssors h1 span{
+    color: blue;
+}
+.why-choose-scisssors p{
+    font-size: 1.1em;
+    width: 95%;
+    line-height: 25px;
+
+}
+
+.U_C_Q_D .inner_U_C_Q_D{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inner_U_C_Q_D div{
+    width: 50%;
+}
+
+.inner_U_C_Q_D div:nth-child(1), .inner_U_C_Q_D div:nth-child(2){
+    margin-bottom: 50px;
+}
+
+.inner_U_C_Q_D div p{
+    font-size: 1.1em;
+    padding-top: 0.6em;
+    width: 85%;
+    line-height: 23px;
+}
+.inner_U_C_Q_D div h1{
+    font-size: 1.5em;
+}
+.inner_U_C_Q_D span{
+    width: 45px;
+    height: 45px;
+    background-color: rgba(79, 176, 208, 0.361);
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    border-radius: 50px;
+    margin: 0 0 50PX 0;
+}
+/* PART 3 */
+.price-perfect-wrapper{
+    padding: 0 10%;
+    margin: 50px 0;
+}
+.price-perfect-wrapper .price-perfect{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.price-perfect h1{
+    font-size: 2.1em;
+    padding: 0 0 10px 0;
+}
+.price-perfect h1 span{
+    color: blue;
+}
+
+.price-perfect p{
+    text-align: center;
+    width: 100%;
+}
+
+.B-P-T .B-P-T-containers{
+    display: flex;
+    justify-content: center;
+
+}
+
+.B-P-T ul{
+    list-style: none;
+}
+
+.B-P-T-containers section:nth-child(1), .B-P-T-containers section:nth-child(3){
+    background-color: #fff;
+    padding: 1em 2em;
+}
+.B-P-T-containers section:nth-child(1){
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.B-P-T-containers section:nth-child(3){
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.B-P-T-containers section{
+    box-shadow: 0 0 5px #00000064;
+}
+
+.B-P-T-containers section:nth-child(1) p, .B-P-T-containers section:nth-child(3) p{
+    font-size: 1.4em;
+}
+.B-P-T-containers section:nth-child(1) h2, .B-P-T-containers section:nth-child(3) h2{
+    font-size: 2em;
+}
+.B-P-T-containers section:nth-child(1) p:nth-child(1), .B-P-T-containers section:nth-child(3) p:nth-child(1){
+    padding: 0 0 1.3em 0;
+}
+.B-P-T-containers section:nth-child(1) p:nth-child(3), .B-P-T-containers section:nth-child(3) p:nth-child(3){
+    padding: 0.5em 0 0.8em 0;
+    font-size: 1.4em;
+}
+.B-P-T-containers section:nth-child(2){
+    background-color: rgb(3, 3, 48);
+    color: #edf;
+    padding: 3em 2em;
+    /* min-height: 900px !important; */
+}
+
+.B-P-T-containers section li{
+    padding: 0 0 2.3em 0;
+    font-size: 1em;
+}
+.B-P-T-containers section{
+    width: 25%;
+}
+
+.B-P-T .B-P-T-containers section:nth-child(2) h2{
+        font-size: 2em;
+        padding: 0em 0em 0.6em 0;
+}
+.B-P-T .B-P-T-containers section:nth-child(2) p{
+        padding: 0em 0 1.8em 0;
+        font-size: 1.4em;
+}
+
+.price-perfect-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.custom-pricing, .select-pricing{
+    padding: 0.9em 3em;
+    margin-top: 4em;
+    font-size: 1.1em;
+    border-radius: 50px;
+}
+
+.custom-pricing{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+}
+.select-pricing{
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+
+/* FORM SECTION */
+
+.form-section{
+    background-color: green;
+    padding: 4em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-section form{
+    background-color: #fff;
+    padding: 1.5em 2.5em;
+    border-radius: 7px;
+}
+
+.form-section form > input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    border: 2px solid blue;
+    background-color: transparent;
+}
